@@ -1,0 +1,215 @@
+* {
+    font-family: Ubuntu;
+}
+
+.container-logo {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: left;
+}
+
+.logo-header {
+    width: 233px;
+    height: 71px;
+    padding: 20px 30px 20px 40px;
+}
+
+nav {
+    margin-top: -50px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.menu-item-header {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 103px 10px 10px;
+    color: #fdfdfd;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#titulo-cursos {
+    font-weight: 700;
+    font-size: 60px;
+    color: #FF4081;
+    margin: 50px 0px 0px 40px;
+}
+
+#cursos p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 60px 40px;
+}
+
+#investimento {
+    display: flex;
+    padding: 40px 120px 40px 80px;
+}
+
+#titulo-investimento {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ff4081;
+}
+
+#investimento p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left
+}
+
+#poupando {
+    display: flex;
+    padding: 100px 120px 40px 80px;
+}
+
+#titulo-poupando {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ff4081;
+}
+
+#poupando p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
+#independencia {
+    display: flex;
+    padding: 100px 120px 40px 80px;
+}
+
+#titulo-independencia {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ff4081;
+}
+
+#independencia p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
+.começar {
+    background-color: #419488;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    margin-top: 30px;
+}
+
+.descritivo-cursos {
+    margin: -25px 50px 0px 100px;
+}
+
+footer {
+    height: 207px;
+    background-color: #2E948A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-item-footer {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link-footer {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button-footer {
+    background-color: #419488;
+    border-radius: 62px;
+    border-color: #ffffff;
+    border: solid 1px;
+    color: #ffffff;
+    width: 289px;
+    height: 51px;
+}
+
+#curso-investimento {
+    display: flex;
+    gap: 80px;
+    margin: 50px 440px 50px 150px;
+}
+
+#investimento-para-iniciantes {
+    font-weight: 700;
+    font-size: 55px;
+    color: #FF4081;
+}
+
+#curso-investimento p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.aula {
+    display: flex;
+    justify-content: center;
+}
+
+#aulas {
+    background-color: #f7f7f7;
+}
+
+#aulas iframe {
+    width: 462px;
+    height: 261px;
+    border: 3px solid #8E8E8E;
+}
+
+#aula1 {
+    padding: 60px;
+    margin: 0px 180px;
+}
+
+#aula2 {
+    padding: 60px;
+    margin: 0px 180px;
+}
+
+#aula3 {
+    padding: 60px;
+    margin: 0px 180px;
+}
+
+.descriçao h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FF4081;
+    margin-left: 100px;
+}
+
+.descriçao p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    margin: 0px 100px;
+}
+
+hr {
+    margin: 0px 70px;
+    background-color: #C4C4C4;
+}
