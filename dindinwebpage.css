@@ -1,53 +1,51 @@
-
-
-.logo{
-position: absolute;
-width: 69px;
-height: 71px;
-left: 82px;
-top: 20px;
+.logo {
+    position: absolute;
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
 }
 
 .navbar {
-width: 1440px;
-height: 117px;
-left: 0px;
-top: 0px;
-background: #2E948A;
-box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-.navbar a1{
-position: absolute;
-left: 1028px;
-top: 47px;
-display: flex;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-text-transform: uppercase;
-color: #FDFDFD;
+.navbar a1 {
+    position: absolute;
+    left: 1028px;
+    top: 47px;
+    display: flex;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FDFDFD;
 }
 
-.navbar a2{
-position: absolute;
-left: 130px;
-top: 0px;
-display: flex;
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-/* identical to box height */
-text-transform: uppercase;
-color: #FDFDFD;
+.navbar a2 {
+    position: absolute;
+    left: 130px;
+    top: 0px;
+    display: flex;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FDFDFD;
 }
 
-.navbar a3{
+.navbar a3 {
     position: absolute;
     left: 100px;
     top: 0px;
@@ -60,9 +58,9 @@ color: #FDFDFD;
     /* identical to box height */
     text-transform: uppercase;
     color: #FDFDFD;
-    }
+}
 
-.textodestaque p1{
+.textodestaque p1 {
     position: absolute;
     width: 488px;
     height: 216px;
@@ -76,7 +74,7 @@ color: #FDFDFD;
     color: #FF4081;
 }
 
-.textodestaque p2{
+.textodestaque p2 {
     position: absolute;
     width: 462px;
     height: 62px;
@@ -90,7 +88,7 @@ color: #FDFDFD;
     color: #555555;
 }
 
-.textodestaque img{
+.textodestaque img {
     position: absolute;
     left: 120%;
     right: 14.31%;
@@ -99,7 +97,7 @@ color: #FDFDFD;
     border: 2px solid #ffff;
 }
 
-.querosaber{
+.querosaber {
     box-sizing: border-box;
     position: absolute;
     width: 268px;
@@ -110,124 +108,124 @@ color: #FDFDFD;
     border-radius: 62px;
 }
 
-.querosaber a{
-position: absolute;
-width: 216px;
-height: 20.27px;
-left: 25px;
-top: 5px;
+.querosaber a {
+    position: absolute;
+    width: 216px;
+    height: 20.27px;
+    left: 25px;
+    top: 5px;
 
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 31px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
 
-color: #FF4081;
+    color: #FF4081;
 }
 
-.backgroundamarelo1{
-position: relative;
-width: 1440px;
-height: 730px;
-left: 0px;
-top: 700px;
-background: #F7F7F7;
+.backgroundamarelo1 {
+    position: relative;
+    width: 1440px;
+    height: 730px;
+    left: 0px;
+    top: 700px;
+    background: #F7F7F7;
 }
 
 /*_____________________________________________________________________________________*/
 
-.imageminvestimento{
-position: absolute;
-left: 150px;
-top: 950px;
+.imageminvestimento {
+    position: absolute;
+    left: 150px;
+    top: 950px;
 }
 
-.imageminvestimento p1{
-position: absolute;
-width: 344px;
-height: 29px;
-left: -40px;
-top: 350px;
-
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 29px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FF4081;
-}
-
-.imageminvestimento p2{
+.imageminvestimento p1 {
     position: absolute;
     width: 344px;
     height: 29px;
     left: -40px;
-    top: 450px;
+    top: 350px;
 
-font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
-}
-
-.imagempoupando{
-    position: absolute;
-    left: 600px;
-    top: 990px;
-}
-
-.imagempoupando p1{
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 310px;
-    
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
     /* identical to box height */
-    
+
     text-align: center;
-    
+
     color: #FF4081;
 }
 
-.imagempoupando p2{
+.imageminvestimento p2 {
+    position: absolute;
+    width: 344px;
+    height: 29px;
+    left: -40px;
+    top: 450px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.imagempoupando {
+    position: absolute;
+    left: 600px;
+    top: 990px;
+}
+
+.imagempoupando p1 {
+    position: absolute;
+    width: 344px;
+    height: 29px;
+    left: -40px;
+    top: 310px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FF4081;
+}
+
+.imagempoupando p2 {
     position: absolute;
     width: 344px;
     height: 29px;
     left: -40px;
     top: 410px;
-    
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
 
-color: #000000;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
 }
 
-.imagemindependencia{
+.imagemindependencia {
     position: absolute;
     left: 1070px;
     top: 960px;
 }
 
-.imagemindependencia p1{
+.imagemindependencia p1 {
     position: absolute;
     width: 344px;
     height: 29px;
@@ -240,13 +238,13 @@ color: #000000;
     font-size: 25px;
     line-height: 29px;
     /* identical to box height */
-    
+
     text-align: center;
-    
+
     color: #FF4081;
 }
 
-.imagemindependencia p2{
+.imagemindependencia p2 {
     position: absolute;
     width: 344px;
     height: 29px;
@@ -254,269 +252,275 @@ color: #000000;
     top: 440px;
 
     font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
 
 /*_____________________________________________________________________________________*/
 
-.oquefalam{
+.oquefalam {
     position: absolute;
-width: 478px;
-height: 50px;
-left: 128px;
-top: 1600px;
+    width: 478px;
+    height: 50px;
+    left: 128px;
+    top: 1600px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 37px;
-line-height: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
 
-color: #009688;
+    color: #009688;
 }
 
 /*___________________________________________*/
 
-.imgtexto1{
+.imgtexto1 {
     box-sizing: border-box;
 
-position: absolute;
-width: 104px;
-height: 104px;
-left: 128px;
-top: 1750px;
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 128px;
+    top: 1750px;
 
-background: #FFFFFF;
-border: 3px solid #FF4081;
-border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
 }
 
-.texto1{
+.texto1 {
     position: absolute;
-width: 363px;
-height: 70.27px;
-left: 260px;
-top: 1750px;
+    width: 363px;
+    height: 70.27px;
+    left: 260px;
+    top: 1750px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
-.subtexto1{
+.subtexto1 {
     position: absolute;
-width: 120px;
-height: 23.42px;
-left: 260px;
-top: 1840px;
+    width: 120px;
+    height: 23.42px;
+    left: 260px;
+    top: 1840px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
 /*___________________________________________*/
 
-.imgtexto2{
+.imgtexto2 {
     box-sizing: border-box;
 
-position: absolute;
-width: 104px;
-height: 104px;
-left: 800px;
-top: 1750px;
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 800px;
+    top: 1750px;
 
-background: #FFFFFF;
-border: 3px solid #FF4081;
-border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
 }
 
-.texto2{
+.texto2 {
     position: absolute;
-width: 363px;
-height: 70.27px;
-left: 940px;
-top: 1750px;
+    width: 363px;
+    height: 70.27px;
+    left: 940px;
+    top: 1750px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
-.subtexto2{
+.subtexto2 {
     position: absolute;
-width: 120px;
-height: 23.42px;
-left: 940px;
-top: 1840px;
+    width: 120px;
+    height: 23.42px;
+    left: 940px;
+    top: 1840px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
 /*___________________________________________*/
 
-.imgtexto3{
+.imgtexto3 {
     box-sizing: border-box;
 
-position: absolute;
-width: 104px;
-height: 104px;
-left: 128px;
-top: 2010px;
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 128px;
+    top: 2010px;
 
-background: #FFFFFF;
-border: 3px solid #FF4081;
-border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
 }
 
-.texto3{
+.texto3 {
     position: absolute;
-width: 363px;
-height: 70.27px;
-left: 260px;
-top: 2010px;
+    width: 363px;
+    height: 70.27px;
+    left: 260px;
+    top: 2010px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
-.subtexto3{
+.subtexto3 {
     position: absolute;
-width: 100px;
-height: 23.42px;
-left: 260px;
-top: 2100px;
+    width: 100px;
+    height: 23.42px;
+    left: 260px;
+    top: 2100px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
 /*___________________________________________*/
 
 
-.imgtexto4{
+.imgtexto4 {
     box-sizing: border-box;
 
-position: absolute;
-width: 104px;
-height: 104px;
-left: 800px;
-top: 2010px;
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 800px;
+    top: 2010px;
 
-background: #FFFFFF;
-border: 3px solid #FF4081;
-border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
 }
 
-.texto4{
+.texto4 {
     position: absolute;
-width: 363px;
-height: 70.27px;
-left: 940px;
-top: 2010px;
+    width: 363px;
+    height: 70.27px;
+    left: 940px;
+    top: 2010px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
-.subtexto4{
+.subtexto4 {
     position: absolute;
-width: 100px;
-height: 23.42px;
-left: 940px;
-top: 2100px;
+    width: 100px;
+    height: 23.42px;
+    left: 940px;
+    top: 2100px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 }
 
 /*___________________________________________*/
 
-.backgroundamarelo2{
+.backgroundamarelo2 {
     position: relative;
-width: 1440px;
-height: 730px;
-left: 0px;
-top: 1400px;
-background: #F7F7F7;
+    width: 1440px;
+    height: 730px;
+    left: 0px;
+    top: 1400px;
+    background: #F7F7F7;
 }
 
-/* CSS Maísa */
+/* CSS Maísa Início */
 
 * {
     font-family: Ubuntu;
 }
 
-.container-logo {
-    background-color: #2E948A;
+header {
     display: flex;
+    background-color: #2E948A;
+    align-items: center;
+}
+
+.container-logo {
     justify-content: left;
 }
 
 .logo-header {
     width: 233px;
     height: 71px;
-    padding: 20px 30px 20px 40px;
+    padding: 20px 30px 20px 50px;
 }
 
 nav {
-    margin-top: -50px;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    flex-grow: 1;
+    text-align: right;
 }
 
 .menu-item-header {
-    display: flex;
     text-decoration: none;
     padding: 10px 103px 10px 10px;
     color: #fdfdfd;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+#pagina-cursos {
+    margin: 5% 5% 5% 5%;
 }
 
 #titulo-cursos {
@@ -536,6 +540,7 @@ nav {
     display: flex;
     padding: 40px 120px 40px 80px;
 }
+
 
 #titulo-investimento {
     font-size: 35px;
@@ -577,6 +582,7 @@ nav {
     font-size: 35px;
     font-weight: 700;
     color: #ff4081;
+    margin-right: 60px;
 }
 
 #independencia p {
@@ -592,9 +598,11 @@ nav {
     font-weight: 400;
     color: #ffffff;
     border-radius: 62px;
+    border: 1px solid #ffffff;
     width: 233px;
     height: 51px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .descritivo-cursos {
@@ -612,6 +620,12 @@ footer {
 .footer {
     flex-direction: column;
     align-items: flex-start;
+}
+
+.logo-footer {
+    width: 269px;
+    height: 101px;
+    padding: 20px 30px 20px 50px;
 }
 
 .menu-item-footer {
@@ -632,26 +646,37 @@ footer {
     border-color: #ffffff;
     border: solid 1px;
     color: #ffffff;
-    width: 289px;
-    height: 51px;
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
 }
 
 #curso-investimento {
     display: flex;
-    gap: 80px;
+    gap: 85px;
     margin: 50px 440px 50px 150px;
+}
+
+.descritivo-investimento {
+    margin-right: 20px;
+    text-align: justify;
 }
 
 #investimento-para-iniciantes {
     font-weight: 700;
     font-size: 55px;
     color: #FF4081;
+    margin-right: 100px;
 }
 
 #curso-investimento p {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
+}
+
+.imagem-investimento {
+    margin-top: 30px;
 }
 
 .aula {
@@ -664,9 +689,12 @@ footer {
 }
 
 #aulas iframe {
-    width: 462px;
-    height: 261px;
+    width: 600px;
+    height: 200px;
     border: 3px solid #8E8E8E;
+    display: flex;
+    justify-content: center;
+
 }
 
 #aula1 {
@@ -688,17 +716,30 @@ footer {
     font-size: 35px;
     font-weight: 700;
     color: #FF4081;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 .descriçao p {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
-    margin: 0px 100px;
+    margin: 0px 80px 0px 300px;
+    text-align: start;
 }
 
 hr {
     margin: 0px 70px;
     background-color: #C4C4C4;
+    height: 2px;
 }
+
+@media only screen and (max-width: 900px) {
+    .nav-header {
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width: 1400px) {}
+
+/* CSS Maísa Final */
