@@ -1,487 +1,763 @@
-.logo {
-    position: absolute;
-    width: 69px;
-    height: 71px;
-    left: 82px;
-    top: 20px;
-}
-
-.navbar {
-    width: 1440px;
-    height: 117px;
-    left: 0px;
-    top: 0px;
-    background: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-}
-
-.navbar a1 {
-    position: absolute;
-    left: 1028px;
-    top: 47px;
-    display: flex;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-    text-transform: uppercase;
-    color: #FDFDFD;
-}
-
-.navbar a2 {
-    position: absolute;
-    left: 130px;
-    top: 0px;
-    display: flex;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-    text-transform: uppercase;
-    color: #FDFDFD;
-}
-
-.navbar a3 {
-    position: absolute;
-    left: 100px;
-    top: 0px;
-    display: flex;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-    text-transform: uppercase;
-    color: #FDFDFD;
-}
-
-.textodestaque p1 {
-    position: absolute;
-    width: 488px;
-    height: 216px;
-    left: 206px;
-    top: 300px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
-    color: #FF4081;
-}
-
-.textodestaque p2 {
-    position: absolute;
-    width: 462px;
-    height: 62px;
-    left: 0px;
-    top: 230px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-    color: #555555;
-}
-
-.textodestaque img {
-    position: absolute;
-    left: 120%;
-    right: 14.31%;
-    top: -500%;
-    bottom: 76.13%;
-    border: 2px solid #ffff;
-}
-
-.querosaber {
-    box-sizing: border-box;
-    position: absolute;
-    width: 268px;
-    height: 51px;
-    left: 207px;
-    top: 630px;
-    border: 2px solid #FF4081;
-    border-radius: 62px;
-}
-
-.querosaber a {
-    position: absolute;
-    width: 216px;
-    height: 20.27px;
-    left: 25px;
-    top: 5px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-
-    color: #FF4081;
-}
-
-.backgroundamarelo1 {
-    position: relative;
-    width: 1440px;
-    height: 730px;
-    left: 0px;
-    top: 700px;
-    background: #F7F7F7;
-}
-
-/*_____________________________________________________________________________________*/
-
-.imageminvestimento {
-    position: absolute;
-    left: 150px;
-    top: 950px;
-}
-
-.imageminvestimento p1 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 350px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FF4081;
-}
-
-.imageminvestimento p2 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 450px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
-}
-
-.imagempoupando {
-    position: absolute;
-    left: 600px;
-    top: 990px;
-}
-
-.imagempoupando p1 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 310px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FF4081;
-}
-
-.imagempoupando p2 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 410px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
-}
-
-.imagemindependencia {
-    position: absolute;
-    left: 1070px;
-    top: 960px;
-}
-
-.imagemindependencia p1 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 340px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FF4081;
-}
-
-.imagemindependencia p2 {
-    position: absolute;
-    width: 344px;
-    height: 29px;
-    left: -40px;
-    top: 440px;
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
-}
-
-/*_____________________________________________________________________________________*/
-
-.oquefalam {
-    position: absolute;
-    width: 478px;
-    height: 50px;
-    left: 128px;
-    top: 1600px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 37px;
-    line-height: 50px;
-
-    color: #009688;
-}
-
-/*___________________________________________*/
-
-.imgtexto1 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 128px;
-    top: 1750px;
-
-    background: #FFFFFF;
-    border: 3px solid #FF4081;
-    border-radius: 50px;
-}
-
-.texto1 {
-    position: absolute;
-    width: 363px;
-    height: 70.27px;
-    left: 260px;
-    top: 1750px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-.subtexto1 {
-    position: absolute;
-    width: 120px;
-    height: 23.42px;
-    left: 260px;
-    top: 1840px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-/*___________________________________________*/
-
-.imgtexto2 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 800px;
-    top: 1750px;
-
-    background: #FFFFFF;
-    border: 3px solid #FF4081;
-    border-radius: 50px;
-}
-
-.texto2 {
-    position: absolute;
-    width: 363px;
-    height: 70.27px;
-    left: 940px;
-    top: 1750px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-.subtexto2 {
-    position: absolute;
-    width: 120px;
-    height: 23.42px;
-    left: 940px;
-    top: 1840px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-/*___________________________________________*/
-
-.imgtexto3 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 128px;
-    top: 2010px;
-
-    background: #FFFFFF;
-    border: 3px solid #FF4081;
-    border-radius: 50px;
-}
-
-.texto3 {
-    position: absolute;
-    width: 363px;
-    height: 70.27px;
-    left: 260px;
-    top: 2010px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-.subtexto3 {
-    position: absolute;
-    width: 100px;
-    height: 23.42px;
-    left: 260px;
-    top: 2100px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-/*___________________________________________*/
-
-
-.imgtexto4 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 800px;
-    top: 2010px;
-
-    background: #FFFFFF;
-    border: 3px solid #FF4081;
-    border-radius: 50px;
-}
-
-.texto4 {
-    position: absolute;
-    width: 363px;
-    height: 70.27px;
-    left: 940px;
-    top: 2010px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-.subtexto4 {
-    position: absolute;
-    width: 100px;
-    height: 23.42px;
-    left: 940px;
-    top: 2100px;
-
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
-
-/*___________________________________________*/
-
-.backgroundamarelo2 {
-    position: relative;
-    width: 1440px;
-    height: 730px;
-    left: 0px;
-    top: 1400px;
-    background: #F7F7F7;
-}
+@media only screen and (max-device-width: 900px) {
+    .main { width:100%; } */
+        }
+    
+    .logo{
+        position: absolute;
+        width: 69px;
+        height: 71px;
+        left: 82px;
+        top: 27px;
+    }
+    
+    .navbar {
+        width: 1440px;
+        height: 117px;
+        left: 0px;
+        top: 0px;
+        background: #2E948A;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+    
+    .a1{
+        position: absolute;
+        left: 1028px;
+        top: 47px;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #FDFDFD;
+    }
+    
+    .a2{
+        position: absolute;
+        left: 1150px;
+        top: 47px;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #FDFDFD;
+    }
+    
+    .a3{
+        position: absolute;
+        left: 1250px;
+        top: 47px;
+        display: flex;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+        text-transform: uppercase;
+        color: #FDFDFD;
+        }
+    
+    .textodestaque p1{
+        position: absolute;
+        width: 488px;
+        height: 216px;
+        left: 206px;
+        top: 300px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 69px;
+        color: #FF4081;
+    }
+    
+    .textodestaque p2{
+        position: absolute;
+        width: 462px;
+        height: 62px;
+        left: 0px;
+        top: 230px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 31px;
+        color: #555555;
+    }
+    
+    .textodestaque img{
+        position: absolute;
+        left: 120%;
+        right: 14.31%;
+        top: -500%;
+        bottom: 76.13%;
+        border: 2px solid #ffff;
+    }
+    
+    .querosaber{
+        box-sizing: border-box;
+        position: absolute;
+        width: 268px;
+        height: 51px;
+        left: 207px;
+        top: 630px;
+        border: 2px solid #FF4081;
+        border-radius: 62px;
+    }
+    
+    .querosaber a{
+        position: absolute;
+        width: 216px;
+        height: 20.27px;
+        left: 25px;
+        top: 5px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 31px;
+    
+        color: #FF4081;
+    }
+    
+    .backgroundamarelo1{
+        position: relative;
+        width: 1440px;
+        height: 730px;
+        left: 0px;
+        top: 700px;
+        background: #F7F7F7;
+    }
+    
+    
+    
+    .imageminvestimento{
+        position: absolute;
+        left: 150px;
+        top: 950px;
+    }
+    
+    .imageminvestimento p1{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 350px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #FF4081;
+    }
+    
+    .imageminvestimento p2{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 450px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .imagempoupando{
+        position: absolute;
+        left: 600px;
+        top: 990px;
+    }
+    
+    .imagempoupando p1{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 310px;
+        
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #FF4081;
+    }
+    
+    .imagempoupando p2{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 410px;
+        
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .imagemindependencia{
+        position: absolute;
+        left: 1070px;
+        top: 960px;
+    }
+    
+    .imagemindependencia p1{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 340px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 29px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #FF4081;
+    }
+    
+    .imagemindependencia p2{
+        position: absolute;
+        width: 344px;
+        height: 29px;
+        left: -40px;
+        top: 440px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .oquefalam{
+        position: absolute;
+        width: 478px;
+        height: 50px;
+        left: 128px;
+        top: 1600px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 50px;
+    
+        color: #009688;
+    }
+    
+    .imgtexto1{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        left: 128px;
+        top: 1750px;
+    
+    /*    background: #FFFFFF;
+        border: 3px solid #FF4081;
+        border-radius: 50px;
+    */
+    }
+    
+    .texto1{
+        position: absolute;
+        width: 363px;
+        height: 70.27px;
+        left: 260px;
+        top: 1750px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .subtexto1{
+        position: absolute;
+        width: 120px;
+        height: 23.42px;
+        left: 260px;
+        top: 1840px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .imgtexto2{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        left: 800px;
+        top: 1750px;
+    
+    /*    background: #FFFFFF;
+        border: 3px solid #FF4081;
+        border-radius: 50px;
+    */
+    }
+    
+    .texto2{
+        position: absolute;
+        width: 363px;
+        height: 70.27px;
+        left: 940px;
+        top: 1750px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .subtexto2{
+        position: absolute;
+        width: 120px;
+        height: 23.42px;
+        left: 940px;
+        top: 1840px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .imgtexto3{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        left: 128px;
+        top: 2010px;
+    
+    /*    background: #FFFFFF;
+        border: 3px solid #FF4081;
+        border-radius: 50px;
+    */
+    }
+    
+    .texto3{
+        position: absolute;
+        width: 363px;
+        height: 70.27px;
+        left: 260px;
+        top: 2010px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .subtexto3{
+        position: absolute;
+        width: 100px;
+        height: 23.42px;
+        left: 260px;
+        top: 2100px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .imgtexto4{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        left: 800px;
+        top: 2010px;
+    
+    /*    background: #FFFFFF;
+        border: 3px solid #FF4081;
+        border-radius: 50px;
+    */
+    }
+    
+    .texto4{
+        position: absolute;
+        width: 363px;
+        height: 70.27px;
+        left: 940px;
+        top: 2010px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .subtexto4{
+        position: absolute;
+        width: 100px;
+        height: 23.42px;
+        left: 940px;
+        top: 2100px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    
+        color: #000000;
+    }
+    
+    .backgroundamarelo2{
+        position: relative;
+        width: 1440px;
+        height: 730px;
+        left: 0px;
+        top: 1400px;
+        background: #F7F7F7;
+    }
+    
+    .maisconteudo{
+        position: absolute;
+        width: 530px;
+        height: 43px;
+        left: 128px;
+        top: 2351px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 43px;
+        /* identical to box height */
+        color: #009688;
+    }
+    
+    .quadrado1{
+        position: absolute;
+        width: 319px;
+        height: 193px;
+        left: 128px;
+        top: 2467px;
+        
+        background: #C4C4C4;
+    }
+    
+    .quadrado2{
+        position: absolute;
+        width: 319px;
+        height: 193px;
+        left: 556px;
+        top: 2467px;
+    
+        background: #C4C4C4;
+    }
+    
+    .quadrado3{
+        position: absolute;
+        width: 319px;
+        height: 193px;
+        left: 984px;
+        top: 2467px;
+    
+        background: #C4C4C4;
+    }
+    
+    .paragrafoquadrado1 p1{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 128px;
+        top: 2671px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 31px;
+    
+        color: #009688;
+    }
+    
+    .paragrafoquadrado1 p2{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 128px;
+        top: 2700px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20.68px;
+    
+        color: #000000;
+    }
+    
+    .paragrafoquadrado2 p1{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 556px;
+        top: 2671px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 31px;
+    
+        color: #009688;
+    }
+    
+    .paragrafoquadrado2 p2{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 556px;
+        top: 2700px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20.68px;
+    
+        color: #000000;
+    }
+    
+    .paragrafoquadrado3 p1{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 984px;
+        top: 2671px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 31px;
+    
+        color: #009688;
+    }
+    
+    .paragrafoquadrado3 p2{
+        position: absolute;
+        width: 319px;
+        height: 114px;
+        left: 984px;
+        top: 2700px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20.68px;
+    
+        color: #000000;
+    }
+    
+    .vertodososposts{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 289px;
+        height: 51px;
+        left: 582px;
+        top: 2886px;
+    
+        border: 2px solid #FF4081;
+        border-radius: 62px;
+    }
+    
+    .vertodososposts a{
+        position: absolute;
+        width: 207px;
+        height: 31px;
+        left: 40px;
+        top: 4px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+    
+        color: #FF4081;
+    }
+    
+    .imgfooter{
+        position: absolute;
+        width: 1440px;
+        height: 207px;
+        left: 0px;
+        top: 3000px;
+        
+        background: #2E948A;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+    
+    .imgfooter img{
+        position: absolute;
+        width: 312px;
+        height: 102px;
+        left: 82px;
+        top: 53px;
+    }
+    
+    .navfooter{
+        position: absolute;
+        width: 50px;
+        height: 102px;
+        left: 720px;
+        top: 3065px;
+        text-align: left;
+    
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        
+        color: #FFFFFF;
+    }   
+    
+    .proflink{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 289px;
+        height: 51px;
+        left: 1050px;
+        top: 3045px;
+    
+        border: 2px solid #ffffff;
+        border-radius: 62px;
+    }
+    
+    .proflink a{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 289px;
+        height: 51px;
+        left: 0px;
+        top: 10px;
+    
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+    
+    .outrolink{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 289px;
+        height: 51px;
+        left: 1050px;
+        top: 3110px;
+    
+        border: 2px solid #ffffff;
+        border-radius: 62px;
+    }
+    
+    .outrolink a{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 289px;
+        height: 51px;
+        left: 0px;
+        top: 10px;
+        
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+    
 
 /* CSS Maísa Início */
 
