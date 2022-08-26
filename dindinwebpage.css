@@ -785,20 +785,26 @@ header {
 
 .nav-header {
     flex-grow: 1;
-    text-align: right;
+    justify-content: flex-end;
+    display: flex;
 }
 
 .menu-item-header {
     text-decoration: none;
-    padding: 10px 103px 10px 10px;
+    padding: 10px;
     color: #fdfdfd;
     font-size: 20px;
     font-weight: 700;
 }
 
-
 #pagina-cursos {
     margin: 5% 5% 5% 5%;
+    justify-content: center;
+}
+
+#pagina-curso-investimento {
+    margin: 5% 5% 5% 5%;
+    justify-content: center;
 }
 
 #titulo-cursos {
@@ -814,9 +820,13 @@ header {
     margin: 0px 0px 60px 40px;
 }
 
+.img-cursos {
+    padding: 0px 60px;
+}
+
 #investimento {
     display: flex;
-    padding: 40px 120px 40px 80px;
+    padding: 40px;
 }
 
 #titulo-investimento {
@@ -834,7 +844,7 @@ header {
 
 #poupando {
     display: flex;
-    padding: 100px 120px 40px 80px;
+    padding: 40px;
 }
 
 #titulo-poupando {
@@ -852,14 +862,13 @@ header {
 
 #independencia {
     display: flex;
-    padding: 100px 120px 40px 80px;
+    padding: 40px;
 }
 
 #titulo-independencia {
     font-size: 35px;
     font-weight: 700;
     color: #ff4081;
-    margin-right: 60px;
 }
 
 #independencia p {
@@ -883,7 +892,8 @@ header {
 }
 
 .descritivo-cursos {
-    margin: -25px 50px 0px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -931,112 +941,109 @@ footer {
 
 #curso-investimento {
     display: flex;
-    gap: 85px;
-    margin: 50px 440px 50px 150px;
+    padding: 40px;
+
 }
 
 .descritivo-investimento {
-    margin-right: 20px;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
 }
 
 #investimento-para-iniciantes {
     font-weight: 700;
     font-size: 55px;
     color: #FF4081;
-    margin-right: 100px;
 }
 
-#curso-investimento p {
+.descritivo-investimento p {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
+    text-align: left;
 }
 
-.imagem-investimento {
-    margin-top: 30px;
+.img-investimento {
+    padding: 0px 60px;
 }
 
 .aula {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
 }
 
 #aulas {
     background-color: #f7f7f7;
 }
 
-#aulas iframe {
-    width: 600px;
-    height: 200px;
-    border: 3px solid #8E8E8E;
-    display: flex;
-    justify-content: center;
-
-}
-
-#aula1 {
+.video {
+    margin-left: 60px;
     padding: 60px;
-    margin: 0px 180px;
-}
-
-#aula2 {
-    padding: 60px;
-    margin: 0px 180px;
-}
-
-#aula3 {
-    padding: 60px;
-    margin: 0px 180px;
 }
 
 .descriçao {
     display: flex;
     flex-direction: column;
+    padding: 60px;
+    margin-right: 50px;
 }
 
 .descriçao h2 {
     font-size: 35px;
     font-weight: 700;
     color: #FF4081;
-    margin-left: 300px;
 }
+
 
 .descriçao p {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
-    margin: 0px 80px 0px 300px;
-    text-align: start;
 }
 
 hr {
-    margin: 0px 70px;
+    margin: 0 5%;
     background-color: #C4C4C4;
     height: 2px;
 }
 
-#menu-icon {
-    width: 40px;
-    display: none;
-}
-
-#menu-icon-footer {
-    width: 40px;
-    display: none;
-}
 
 @media only screen and (max-width: 900px) {
-    .nav-header a {
-        display: none;
+    header {
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
     }
 
-    #menu-icon {
-        display: block;
-        cursor: pointer;
+    .nav-header {
+        flex-grow: 0;
+    }
+
+    .logo-header {
+        padding: 0;
+    }
+
+    .img-cursos {
+        padding: 0;
+        width: 80vw;
     }
 
     #aula1 {
+        flex-wrap: wrap;
+    }
+
+    #investimento {
+        flex-wrap: wrap;
+    }
+
+    #poupando {
+        flex-wrap: wrap;
+    }
+
+    #independencia {
         flex-wrap: wrap;
     }
 
@@ -1055,9 +1062,36 @@ hr {
     .descriçao h2 {
         margin: 0;
     }
+
+    .descriçao {
+        flex-wrap: wrap;
+    }
+
+    #curso-investimento {
+        flex-wrap: wrap;
+    }
+
+    .video {
+        width: 20vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .descriçao {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 700px) {
+
+    #cursos {
+        text-align: center;
+    }
+
+    #curso-investimento {
+        text-align: center;
+    }
+
     .link-footer {
         display: none;
     }
