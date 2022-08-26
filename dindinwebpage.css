@@ -984,6 +984,11 @@ footer {
     padding: 60px;
 }
 
+.video iframe {
+    width: 464px;
+    height: 261px;
+}
+
 .descriçao {
     display: flex;
     flex-direction: column;
@@ -1031,10 +1036,6 @@ hr {
         width: 80vw;
     }
 
-    #aula1 {
-        flex-wrap: wrap;
-    }
-
     #investimento {
         flex-wrap: wrap;
     }
@@ -1047,6 +1048,10 @@ hr {
         flex-wrap: wrap;
     }
 
+    #aula1 {
+        flex-wrap: wrap;
+    }
+
     #aula2 {
         flex-wrap: wrap;
     }
@@ -1056,23 +1061,47 @@ hr {
     }
 
     .descriçao p {
-        margin: 0;
+        text-align: center;
     }
 
     .descriçao h2 {
-        margin: 0;
+        text-align: center;
     }
+
+    .descritivo-investimento p {
+        text-align: center;
+    } 
 
     .descriçao {
         flex-wrap: wrap;
+        padding: 10px;
+        margin: 0;
     }
 
     #curso-investimento {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-investimento {
+        padding: 0;
+        width: 90%;
+    }
+
+    #investimento-para-iniciantes {
+        font-size: 35px;
+    }
+
+    .descritivo-investimento {
+        padding: 0;
+    }
+
+    .aula {
+        margin-top: 20px;
+        justify-content: center;
     }
 
     .video {
-        width: 20vw;
         padding: 0;
         margin: 0;
     }
@@ -1084,12 +1113,21 @@ hr {
 
 @media only screen and (max-width: 700px) {
 
+    #pagina-curso-investimento {
+        margin: 0;
+    }
+
     #cursos {
         text-align: center;
     }
 
     #curso-investimento {
         text-align: center;
+    }
+
+    .video iframe {
+        width: 352px;
+        height: 198px;
     }
 
     .link-footer {
