@@ -1,10 +1,6 @@
-@media only screen and (max-device-width: 900px) {
-    .main {
-        width: 100%;
-    }
-}
 
-.logo {
+
+.logo{
     position: absolute;
     width: 69px;
     height: 71px;
@@ -21,7 +17,7 @@
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-.a1 {
+.a1{
     position: absolute;
     left: 1028px;
     top: 47px;
@@ -34,9 +30,10 @@
     /* identical to box height */
     text-transform: uppercase;
     color: #FDFDFD;
+    text-decoration: none;
 }
 
-.a2 {
+.a2{
     position: absolute;
     left: 1150px;
     top: 47px;
@@ -49,9 +46,10 @@
     /* identical to box height */
     text-transform: uppercase;
     color: #FDFDFD;
+    text-decoration: none;
 }
 
-.a3 {
+.a3{
     position: absolute;
     left: 1250px;
     top: 47px;
@@ -64,9 +62,10 @@
     /* identical to box height */
     text-transform: uppercase;
     color: #FDFDFD;
-}
+    text-decoration: none;
+    }
 
-.textodestaque p1 {
+.textodestaque h1{
     position: absolute;
     width: 488px;
     height: 216px;
@@ -80,12 +79,12 @@
     color: #FF4081;
 }
 
-.textodestaque p2 {
+.textodestaque p{
     position: absolute;
     width: 462px;
     height: 62px;
-    left: 0px;
-    top: 230px;
+    left: 206px;
+    top: 530px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -94,16 +93,16 @@
     color: #555555;
 }
 
-.textodestaque img {
+.textodestaque img{
     position: absolute;
-    left: 120%;
-    right: 14.31%;
-    top: -500%;
-    bottom: 76.13%;
+    width: 501px;
+    height: 511px;
+    left: 770px;
+    top: 260px;
     border: 2px solid #ffff;
 }
 
-.querosaber {
+.querosaber{
     box-sizing: border-box;
     position: absolute;
     width: 268px;
@@ -114,7 +113,7 @@
     border-radius: 62px;
 }
 
-.querosaber a {
+.querosaber a{
     position: absolute;
     width: 216px;
     height: 20.27px;
@@ -128,9 +127,10 @@
     line-height: 31px;
 
     color: #FF4081;
+    text-decoration: none;
 }
 
-.backgroundamarelo1 {
+.backgroundamarelo1{
     position: relative;
     width: 1440px;
     height: 730px;
@@ -141,13 +141,13 @@
 
 
 
-.imageminvestimento {
+.imageminvestimento{
     position: absolute;
     left: 150px;
     top: 950px;
 }
 
-.imageminvestimento p1 {
+.imageminvestimento p1{
     position: absolute;
     width: 344px;
     height: 29px;
@@ -166,7 +166,7 @@
     color: #FF4081;
 }
 
-.imageminvestimento p2 {
+.imageminvestimento p2{
     position: absolute;
     width: 344px;
     height: 29px;
@@ -183,38 +183,38 @@
     color: #000000;
 }
 
-.imagempoupando {
+.imagempoupando{
     position: absolute;
     left: 600px;
     top: 990px;
 }
 
-.imagempoupando p1 {
+.imagempoupando p1{
     position: absolute;
     width: 344px;
     height: 29px;
     left: -40px;
     top: 310px;
-
+    
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
     /* identical to box height */
-
+    
     text-align: center;
-
+    
     color: #FF4081;
 }
 
-.imagempoupando p2 {
+.imagempoupando p2{
     position: absolute;
     width: 344px;
     height: 29px;
     left: -40px;
     top: 410px;
-
+    
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -225,13 +225,13 @@
     color: #000000;
 }
 
-.imagemindependencia {
+.imagemindependencia{
     position: absolute;
     left: 1070px;
     top: 960px;
 }
 
-.imagemindependencia p1 {
+.imagemindependencia p1{
     position: absolute;
     width: 344px;
     height: 29px;
@@ -244,13 +244,13 @@
     font-size: 25px;
     line-height: 29px;
     /* identical to box height */
-
+    
     text-align: center;
-
+    
     color: #FF4081;
 }
 
-.imagemindependencia p2 {
+.imagemindependencia p2{
     position: absolute;
     width: 344px;
     height: 29px;
@@ -267,7 +267,7 @@
     color: #000000;
 }
 
-.oquefalam {
+.oquefalam{
     position: absolute;
     width: 478px;
     height: 50px;
@@ -283,7 +283,7 @@
     color: #009688;
 }
 
-.imgtexto1 {
+.imgtexto1{
     box-sizing: border-box;
 
     position: absolute;
@@ -292,13 +292,13 @@
     left: 128px;
     top: 1750px;
 
-    /*    background: #FFFFFF;
-        border: 3px solid #FF4081;
-        border-radius: 50px;
-    */
+/*    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+*/
 }
 
-.texto1 {
+.texto1{
     position: absolute;
     width: 363px;
     height: 70.27px;
@@ -314,7 +314,7 @@
     color: #000000;
 }
 
-.subtexto1 {
+.subtexto1{
     position: absolute;
     width: 120px;
     height: 23.42px;
@@ -330,7 +330,7 @@
     color: #000000;
 }
 
-.imgtexto2 {
+.imgtexto2{
     box-sizing: border-box;
 
     position: absolute;
@@ -339,13 +339,13 @@
     left: 800px;
     top: 1750px;
 
-    /*    background: #FFFFFF;
-        border: 3px solid #FF4081;
-        border-radius: 50px;
-    */
+/*    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+*/
 }
 
-.texto2 {
+.texto2{
     position: absolute;
     width: 363px;
     height: 70.27px;
@@ -361,7 +361,7 @@
     color: #000000;
 }
 
-.subtexto2 {
+.subtexto2{
     position: absolute;
     width: 120px;
     height: 23.42px;
@@ -377,7 +377,7 @@
     color: #000000;
 }
 
-.imgtexto3 {
+.imgtexto3{
     box-sizing: border-box;
 
     position: absolute;
@@ -386,13 +386,13 @@
     left: 128px;
     top: 2010px;
 
-    /*    background: #FFFFFF;
-        border: 3px solid #FF4081;
-        border-radius: 50px;
-    */
+/*    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+*/
 }
 
-.texto3 {
+.texto3{
     position: absolute;
     width: 363px;
     height: 70.27px;
@@ -408,7 +408,7 @@
     color: #000000;
 }
 
-.subtexto3 {
+.subtexto3{
     position: absolute;
     width: 100px;
     height: 23.42px;
@@ -424,7 +424,7 @@
     color: #000000;
 }
 
-.imgtexto4 {
+.imgtexto4{
     box-sizing: border-box;
 
     position: absolute;
@@ -433,13 +433,13 @@
     left: 800px;
     top: 2010px;
 
-    /*    background: #FFFFFF;
-        border: 3px solid #FF4081;
-        border-radius: 50px;
-    */
+/*    background: #FFFFFF;
+    border: 3px solid #FF4081;
+    border-radius: 50px;
+*/
 }
 
-.texto4 {
+.texto4{
     position: absolute;
     width: 363px;
     height: 70.27px;
@@ -455,7 +455,7 @@
     color: #000000;
 }
 
-.subtexto4 {
+.subtexto4{
     position: absolute;
     width: 100px;
     height: 23.42px;
@@ -471,7 +471,7 @@
     color: #000000;
 }
 
-.backgroundamarelo2 {
+.backgroundamarelo2{
     position: relative;
     width: 1440px;
     height: 730px;
@@ -480,7 +480,7 @@
     background: #F7F7F7;
 }
 
-.maisconteudo {
+.maisconteudo{
     position: absolute;
     width: 530px;
     height: 43px;
@@ -496,17 +496,17 @@
     color: #009688;
 }
 
-.quadrado1 {
+.quadrado1{
     position: absolute;
     width: 319px;
     height: 193px;
     left: 128px;
     top: 2467px;
-
+    
     background: #C4C4C4;
 }
 
-.quadrado2 {
+.quadrado2{
     position: absolute;
     width: 319px;
     height: 193px;
@@ -516,7 +516,7 @@
     background: #C4C4C4;
 }
 
-.quadrado3 {
+.quadrado3{
     position: absolute;
     width: 319px;
     height: 193px;
@@ -526,7 +526,7 @@
     background: #C4C4C4;
 }
 
-.paragrafoquadrado1 p1 {
+.paragrafoquadrado1 p1{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -542,7 +542,7 @@
     color: #009688;
 }
 
-.paragrafoquadrado1 p2 {
+.paragrafoquadrado1 p2{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -558,7 +558,7 @@
     color: #000000;
 }
 
-.paragrafoquadrado2 p1 {
+.paragrafoquadrado2 p1{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -574,7 +574,7 @@
     color: #009688;
 }
 
-.paragrafoquadrado2 p2 {
+.paragrafoquadrado2 p2{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -590,7 +590,7 @@
     color: #000000;
 }
 
-.paragrafoquadrado3 p1 {
+.paragrafoquadrado3 p1{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -606,7 +606,7 @@
     color: #009688;
 }
 
-.paragrafoquadrado3 p2 {
+.paragrafoquadrado3 p2{
     position: absolute;
     width: 319px;
     height: 114px;
@@ -622,7 +622,7 @@
     color: #000000;
 }
 
-.vertodososposts {
+.vertodososposts{
     box-sizing: border-box;
 
     position: absolute;
@@ -635,7 +635,7 @@
     border-radius: 62px;
 }
 
-.vertodososposts a {
+.vertodososposts a{
     position: absolute;
     width: 207px;
     height: 31px;
@@ -647,22 +647,23 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
+    text-decoration: none;
 
     color: #FF4081;
 }
 
-.imgfooter {
+.imgfooter{
     position: absolute;
     width: 1440px;
     height: 207px;
     left: 0px;
     top: 3000px;
-
+    
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
-.imgfooter img {
+.imgfooter img{
     position: absolute;
     width: 312px;
     height: 102px;
@@ -670,7 +671,7 @@
     top: 53px;
 }
 
-.navfooter {
+.navfooter{
     position: absolute;
     width: 50px;
     height: 102px;
@@ -679,6 +680,7 @@
     text-align: left;
 
     display: flex;
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -688,11 +690,12 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
+    text-decoration: none;
+    
     color: #FFFFFF;
-}
+}   
 
-.proflink {
+.proflink{
     box-sizing: border-box;
 
     position: absolute;
@@ -705,7 +708,7 @@
     border-radius: 62px;
 }
 
-.proflink a {
+.proflink a{
     box-sizing: border-box;
 
     position: absolute;
@@ -722,11 +725,12 @@
     /* identical to box height */
 
     text-align: center;
+    text-decoration: none;
 
     color: #FFFFFF;
 }
 
-.outrolink {
+.outrolink{
     box-sizing: border-box;
 
     position: absolute;
@@ -739,7 +743,7 @@
     border-radius: 62px;
 }
 
-.outrolink a {
+.outrolink a{
     box-sizing: border-box;
 
     position: absolute;
@@ -747,7 +751,7 @@
     height: 51px;
     left: 0px;
     top: 10px;
-
+    
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -756,10 +760,16 @@
     /* identical to box height */
 
     text-align: center;
+    text-decoration: none;
 
     color: #FFFFFF;
 }
 
+@media only screen and (max-device-width: 900px) {
+    .main {
+        width: 100%;
+    }
+}
 
 /* CSS Maísa Início */
 
@@ -1145,4 +1155,4 @@ hr {
     }
 }
 
-/* CSS Maísa Final */
+/* CSS Maísa Final  */
